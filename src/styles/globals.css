@@ -10,11 +10,20 @@
     }
 
     h1 {
-        @apply text-2xl font-bold text-[#F8F9FA]
+        @apply text-2xl font-bold text-[#F8F9FA] leading-10
     }
 
     h2 {
-        @apply text-2xl
+        @apply text-2xl leading-10
+    }
+
+    p {
+        line-height: 1.25rem !important;
+    }
+
+    a {
+        line-height: 1.5rem !important;
+        
     }
 }
 

@@ -27,7 +27,7 @@ const NavLink = ({ href, children, isActive }: INavLinkProps) => (
   <Link
     href={href}
     className={classNames("text-xs font-medium text-[#F8F9FA]", {
-      "border-b-2 border-[#DDBEA9] pb-1": isActive,
+      "border-b-2 border-[#DDBEA9]": isActive,
       "opacity-50": !isActive,
     })}
   >
