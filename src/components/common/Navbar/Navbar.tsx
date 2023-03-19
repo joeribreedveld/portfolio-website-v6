@@ -11,7 +11,7 @@ const Navbar = () => (
         JOERI BREEDVELD<span className="text-[#DDBEA9]">.</span>
       </h2>
     </section>
-    <section>
+    <section className="hidden md:block">
       <ul className="flex gap-8">
         <NavLink href="/" isActive>
           Home
