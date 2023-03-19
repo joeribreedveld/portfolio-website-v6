@@ -7,9 +7,11 @@ import { type INavLinkProps } from "./Navbar.types";
 const Navbar = () => (
   <nav className="page-width flex items-center justify-between py-8">
     <section>
-      <h2 className="font-bold text-[#F8F9FA]">
-        JOERI BREEDVELD<span className="text-[#DDBEA9]">.</span>
-      </h2>
+      <Link href="/">
+        <h2 className="font-bold text-[#F8F9FA]">
+          JOERI BREEDVELD<span className="text-[#DDBEA9]">.</span>
+        </h2>
+      </Link>
     </section>
     <section className="hidden md:block">
       <ul className="flex gap-8">

@@ -1,6 +1,7 @@
 // Imports
 import { type NextPage } from "next";
 import Head from "next/head";
+import Footer from "~/components/common/Footer/Footer";
 import Navbar from "~/components/common/Navbar/Navbar";
 import Hero from "~/components/sections/Hero/Hero";
 
@@ -16,9 +17,7 @@ const Home: NextPage = () => (
     <main className="min-h-screen">
       <Hero />
     </main>
-    <footer>
-      <div>Footer</div>
-    </footer>
+    <Footer />
   </>
 );
 
