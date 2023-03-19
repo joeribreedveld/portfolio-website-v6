@@ -4,3 +4,5 @@ interface INavLinkProps {
   children: React.ReactNode;
   isActive?: boolean;
 }
+
+export type { INavLinkProps };

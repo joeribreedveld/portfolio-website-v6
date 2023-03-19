@@ -1,6 +1,7 @@
 // Imports
 import Link from "next/link";
 import classNames from "classnames";
+import { type INavLinkProps } from "./Navbar.types";
 
 // Functions
 const Navbar = () => (
