@@ -1,15 +1,16 @@
 // Imports
 import { type NextPage } from "next";
-import Navbar from "~/components/Navbar/Navbar";
+import Navbar from "~/components/common/Navbar/Navbar";
+import Hero from "~/components/sections/Hero/Hero";
 
 // Functions
 const Home: NextPage = () => (
   <>
-    <header className="min-h-[75vh] bg-gray-500">
+    <header className="absolute z-20 w-full">
       <Navbar />
     </header>
-    <main>
-      <div>Main</div>
+    <main className="min-h-screen">
+      <Hero />
     </main>
     <footer>
       <div>Footer</div>

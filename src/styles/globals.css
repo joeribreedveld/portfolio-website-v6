@@ -9,6 +9,10 @@
         font-family: 'Poppins', sans-serif;
     }
 
+    h1 {
+        @apply text-2xl font-bold text-[#F8F9FA]
+    }
+
     h2 {
         @apply text-2xl
     }

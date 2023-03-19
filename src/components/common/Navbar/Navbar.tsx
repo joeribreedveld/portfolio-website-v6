@@ -11,7 +11,7 @@ const Navbar = () => (
       </h2>
     </section>
     <section>
-      <ul className="flex  gap-8">
+      <ul className="flex gap-8">
         <NavLink href="/" isActive>
           Home
         </NavLink>
