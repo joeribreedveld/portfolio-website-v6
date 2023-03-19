@@ -2,3 +2,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Base Layer */
+@layer base {
+    html {
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+/* Components Layer */
+@layer components {}
+
+/* Utilities Layer */
+@layer utilities {
+    .page-width {
+        @apply md:px-16 px-4 lg:px-0 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto w-full
+    }
+
+    .section-padding-y {
+        @apply py-32
+    }
+}
