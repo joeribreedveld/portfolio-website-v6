@@ -8,6 +8,10 @@
     html {
         font-family: 'Poppins', sans-serif;
     }
+
+    h2 {
+        @apply text-2xl
+    }
 }
 
 /* Components Layer */
