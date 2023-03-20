@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import projects from "../../../../public/data/projects.json";
+import { type IProjectProps } from "./Projects.types";
 
 // Functions
 const Projects = () => (
@@ -16,6 +17,7 @@ const Projects = () => (
           description={project.description}
           link={project.link}
           image={project.image}
+          key={project.id}
         />
       ))}
     </ul>

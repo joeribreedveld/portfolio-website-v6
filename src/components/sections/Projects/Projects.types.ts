@@ -5,3 +5,6 @@ interface IProjectProps {
   link: string;
   image: string;
 }
+
+// Exports
+export type { IProjectProps };
