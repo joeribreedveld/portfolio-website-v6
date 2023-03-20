@@ -4,6 +4,7 @@ import Head from "next/head";
 import Footer from "~/components/common/Footer/Footer";
 import Navbar from "~/components/common/Navbar/Navbar";
 import Hero from "~/components/sections/Hero/Hero";
+import Projects from "~/components/sections/Projects/Projects";
 
 // Functions
 const Home: NextPage = () => (
@@ -16,6 +17,7 @@ const Home: NextPage = () => (
     </header>
     <main className="min-h-screen">
       <Hero />
+      <Projects />
     </main>
     <Footer />
   </>

@@ -14,7 +14,15 @@
     }
 
     h2 {
-        @apply text-lg leading-10
+        @apply text-2xl leading-10
+    }
+
+    h3 {
+        @apply text-lg leading-6
+    }
+
+    h4 {
+        @apply font-medium text-base
     }
 
     p {

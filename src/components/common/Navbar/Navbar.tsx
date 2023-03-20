@@ -8,9 +8,9 @@ const Navbar = () => (
   <nav className="page-width flex items-center justify-between py-8">
     <section>
       <Link href="/">
-        <h2 className="font-bold text-[#F8F9FA]">
+        <h3 className="font-bold text-[#F8F9FA]">
           JOERI BREEDVELD<span className="text-[#DDBEA9]">.</span>
-        </h2>
+        </h3>
       </Link>
     </section>
     <section className="hidden md:block">
