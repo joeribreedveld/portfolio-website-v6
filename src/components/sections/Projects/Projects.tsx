@@ -1,7 +1,7 @@
 // Imports
-
 import Image from "next/image";
 import Link from "next/link";
+import projects from "../../../../public/data/projects.json";
 
 // Functions
 const Projects = () => (
@@ -9,42 +9,20 @@ const Projects = () => (
     <h2 className="text-2xl font-bold text-[#212529]">
       Explore selected projects
     </h2>
-    <ul className="grid gap-y-12 gap-x-6 sm:grid-cols-2 lg:grid-cols-3">
-      <Project
-        title="Project 1"
-        description="Lorem ipsum dolor sit amet"
-        href="/"
-        image="/img/projects/project-1.jpg"
-      />
-      <Project
-        title="Project 1"
-        description="Lorem ipsum dolor sit amet"
-        href="/"
-        image="/img/projects/project-1.jpg"
-      />
-      <Project
-        title="Project 1"
-        description="Lorem ipsum dolor sit amet"
-        href="/"
-        image="/img/projects/project-1.jpg"
-      />
-      <Project
-        title="Project 1"
-        description="Lorem ipsum dolor sit amet"
-        href="/"
-        image="/img/projects/project-1.jpg"
-      />
-      <Project
-        title="Project 1"
-        description="Lorem ipsum dolor sit amet"
-        href="/"
-        image="/img/projects/project-1.jpg"
-      />
+    <ul className="grid gap-y-12 gap-x-6 sm:grid-cols-2 xl:grid-cols-3">
+      {projects.map((project) => (
+        <Project
+          title={project.title}
+          description={project.description}
+          link={project.link}
+          image={project.image}
+        />
+      ))}
     </ul>
   </section>
 );
 
-const Project = ({ title, description, href, image }: IProjectProps) => (
+const Project = ({ title, description, link, image }: IProjectProps) => (
   <li>
     <article className="flex flex-col gap-6">
       <div className="relative h-[15rem]">
@@ -55,7 +33,7 @@ const Project = ({ title, description, href, image }: IProjectProps) => (
           <h4 className="font-medium text-[#212529]">{title}</h4>
           <p className="text-xs text-[#495057]">{description}</p>
         </section>
-        <Link href={href} className="text-xs text-[#40594D] underline">
+        <Link href={link} className="text-xs text-[#40594D] underline">
           More information
         </Link>
       </section>

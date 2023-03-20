@@ -2,6 +2,6 @@
 interface IProjectProps {
   title: string;
   description: string;
-  href: string;
+  link: string;
   image: string;
 }

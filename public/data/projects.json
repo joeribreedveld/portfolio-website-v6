@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "zkSync Era",
+    "description": "Crypto Ethereum website",
+    "image": "/img/projects/project-1.jpg",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "title": "VENCE Interior",
+    "description": "Interior design website designed by SimpleSmart",
+    "image": "/img/projects/project-2.jpg",
+    "link": "/"
+  },
+  {
+    "id": 3,
+    "title": "Ommetje",
+    "description": "Walking app with ReactNative",
+    "image": "/img/projects/project-3.jpg",
+    "link": "/"
+  },
+  {
+    "id": 4,
+    "title": "NextStage Academy",
+    "description": "Course sell website with Thinkific",
+    "image": "/img/projects/project-4.jpg",
+    "link": "/"
+  },
+  {
+    "id": 5,
+    "title": "Stageblog CanvasHeroes",
+    "description": "Stageblog for school requirements",
+    "image": "/img/projects/project-5.jpg",
+    "link": "/"
+  },
+  {
+    "id": 6,
+    "title": "Collezione",
+    "description": "Headspace themed collection website for school",
+    "image": "/img/projects/project-6.jpg",
+    "link": "/"
+  }
+]
