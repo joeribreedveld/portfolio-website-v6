@@ -4,7 +4,7 @@ import Image from "next/image";
 
 // Functions
 const Contact = () => (
-  <section className="section-padding-y relative mb-32 bg-[#343A40]">
+  <section className="section-padding-y relative mb-24 bg-[#343A40]">
     <div className="absolute top-0 z-0 h-full w-full opacity-50">
       <Image
         src="/img/contact-bg.jpg"
