@@ -4,16 +4,16 @@ import Image from "next/image";
 
 // Functions
 const Contact = () => (
-  <section className="section-padding-y bg-[#343A40]">
-    <div className="relative h-20 w-full">
+  <section className="section-padding-y relative mb-32 bg-[#343A40]">
+    <div className="absolute top-0 z-0 h-full w-full opacity-50">
       <Image
-        src="/img/hero-bg.jpg"
+        src="/img/contact-bg.jpg"
         alt="Placeholder image"
         className="object-cover"
         fill
       />
     </div>
-    <div className="page-width flex flex-col gap-12">
+    <div className="page-width relative z-20 flex flex-col gap-12">
       <section className="flex flex-col items-center gap-4">
         <h2 className="font-bold text-[#FEFEFE]">Contact</h2>
         <p className="text-xs font-light text-[#E5E5E5]">
@@ -50,6 +50,5 @@ const Contact = () => (
     </div>
   </section>
 );
-
 // Exports
 export default Contact;
