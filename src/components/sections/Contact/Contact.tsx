@@ -5,7 +5,7 @@ import Image from "next/image";
 // Functions
 const Contact = () => (
   <section className="section-padding-y relative mb-24 bg-[#343A40]">
-    <div className="absolute top-0 z-0 h-full w-full opacity-50">
+    <div className="opacity-50">
       <Image
         src="/img/contact-bg.jpg"
         alt="Contact background image programming"
@@ -13,7 +13,7 @@ const Contact = () => (
         fill
       />
     </div>
-    <div className="page-width relative z-20 flex flex-col gap-12">
+    <div className="page-width relative z-10 flex flex-col gap-12">
       <section className="flex flex-col items-center gap-4">
         <h2 className="font-bold text-[#FEFEFE]">Contact</h2>
         <p className="text-xs font-light text-[#E5E5E5]">

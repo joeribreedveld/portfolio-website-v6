@@ -4,7 +4,7 @@ import Image from "next/image";
 // Functions
 const Hero = () => (
   <section className="relative flex h-full min-h-[60vh] flex-col justify-end bg-[#212529]">
-    <div className="page-width z-20 flex flex-col gap-4 p-24">
+    <div className="page-width z-10 flex flex-col gap-4 p-24">
       <h1 className="max-w-[30ch]">
         Passionate Frontend Developer Driven by Learning and Challenges
       </h1>
@@ -13,7 +13,7 @@ const Hero = () => (
         excellent user experience.
       </p>
     </div>
-    <div>
+    <div className="opacity-50">
       <Image
         src="/img/hero-bg.jpg"
         alt="Hero image programming"
