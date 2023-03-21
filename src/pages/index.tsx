@@ -3,6 +3,7 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import Footer from "~/components/common/Footer/Footer";
 import Navbar from "~/components/common/Navbar/Navbar";
+import Contact from "~/components/sections/Contact/Contact";
 import Hero from "~/components/sections/Hero/Hero";
 import Projects from "~/components/sections/Projects/Projects";
 
@@ -18,6 +19,7 @@ const Home: NextPage = () => (
     <main className="min-h-screen">
       <Hero />
       <Projects />
+      <Contact />
     </main>
     <Footer />
   </>
