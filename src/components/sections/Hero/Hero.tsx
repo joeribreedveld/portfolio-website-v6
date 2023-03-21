@@ -1,4 +1,5 @@
 // Imports
+import Image from "next/image";
 
 // Functions
 const Hero = () => (
@@ -12,7 +13,14 @@ const Hero = () => (
         excellent user experience.
       </p>
     </div>
-    <div className="absolute z-10 h-full w-full bg-[url('/img/hero-bg.jpg')] bg-cover bg-center opacity-50"></div>
+    <div>
+      <Image
+        src="/img/hero-bg.jpg"
+        alt="Hero image programming"
+        className="object-cover"
+        fill
+      />
+    </div>
   </section>
 );
 

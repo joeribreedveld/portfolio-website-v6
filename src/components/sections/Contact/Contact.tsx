@@ -8,7 +8,7 @@ const Contact = () => (
     <div className="absolute top-0 z-0 h-full w-full opacity-50">
       <Image
         src="/img/contact-bg.jpg"
-        alt="Placeholder image"
+        alt="Contact background image programming"
         className="object-cover"
         fill
       />
