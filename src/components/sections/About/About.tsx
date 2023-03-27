@@ -19,7 +19,7 @@ const About = () => (
     <div className="relative h-[20rem] md:absolute md:min-h-full md:w-full md:max-w-[50vw] md:translate-x-full">
       <Image
         src="/img/about.jpg"
-        alt="Contact background image programming"
+        alt="Skateboarding sunset image"
         className="top-0 left-0 h-[20rem] w-full transform object-cover opacity-50"
         fill
       />
