@@ -33,9 +33,12 @@ const Project = ({ title, description, link, image }: IProjectProps) => (
       <section className="flex flex-col gap-4">
         <section className="flex flex-col gap-2">
           <h4 className="font-medium text-[#212529]">{title}</h4>
-          <p className="text-xs text-[#495057]">{description}</p>
+          <p className="text-xs font-light text-[#495057]">{description}</p>
         </section>
-        <Link href={link} className="text-xs text-[#40594D] underline">
+        <Link
+          href={link}
+          className="text-xs font-light text-[#40594D] underline"
+        >
           More information
         </Link>
       </section>
