@@ -7,7 +7,7 @@ import About from "~/components/sections/About/About";
 import Contact from "~/components/sections/Contact/Contact";
 import Hero from "~/components/sections/Hero/Hero";
 import Projects from "~/components/sections/Projects/Projects";
-import School from "~/components/sections/School/School";
+import Education from "~/components/sections/Education/Education";
 
 // Functions
 const Home: NextPage = () => (
@@ -22,7 +22,7 @@ const Home: NextPage = () => (
       <Hero />
       <Projects />
       <About />
-      <School />
+      <Education />
       <Contact />
     </main>
     <Footer />
