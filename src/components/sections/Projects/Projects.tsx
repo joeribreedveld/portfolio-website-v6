@@ -37,9 +37,11 @@ const Project = ({ title, description, link, image }: IProjectProps) => (
         </section>
         <Link
           href={link}
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-xs font-light text-[#40594D] underline"
         >
-          More information
+          View project
         </Link>
       </section>
     </article>
