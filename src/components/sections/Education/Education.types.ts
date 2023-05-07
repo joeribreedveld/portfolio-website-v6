@@ -1,7 +1,7 @@
 // Interfaces
 interface IEducationItemProps {
   title: string;
-  img?: string;
+  img: string;
   description: string;
   date: string;
 }
