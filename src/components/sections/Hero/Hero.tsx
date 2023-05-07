@@ -13,14 +13,12 @@ const Hero = () => (
         excellent user experience.
       </p>
     </div>
-    <div className="opacity-50">
-      <Image
-        src="/img/hero-bg.jpg"
-        alt="Hero image programming"
-        className="object-cover"
-        fill
-      />
-    </div>
+    <Image
+      src="/img/hero-bg.jpg"
+      alt="Hero image programming"
+      className="object-cover opacity-50"
+      fill
+    />
   </section>
 );
 
