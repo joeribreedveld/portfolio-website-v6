@@ -12,7 +12,7 @@ const Education = () => (
           title={educationItem.title}
           date={educationItem.date}
           description={educationItem.description}
-          img={educationItem.img}
+          // img={educationItem.img}
           key={educationItem.id}
         />
       ))}
