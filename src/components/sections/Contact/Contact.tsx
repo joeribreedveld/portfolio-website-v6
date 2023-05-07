@@ -15,9 +15,9 @@ const Contact = () => (
     </div>
     <div className="page-width relative z-10 flex flex-col gap-12">
       <section className="flex flex-col items-center gap-4">
-        <h2 className="font-bold text-[#FEFEFE]">Contact</h2>
+        <h2 className="font-bold text-[#FEFEFE]">Reach out to me</h2>
         <p className="text-xs font-light text-[#E5E5E5]">
-          Feel free to reach out if you have any questions.
+          Feel free to contact me if you have any questions.
         </p>
       </section>
       <ul className="flex flex-col items-center gap-4">
@@ -27,24 +27,37 @@ const Contact = () => (
           </p>
         </li>
         <li>
-          <Link href="/" className="text-xs font-medium text-[#FEFEFE]">
+          <Link
+            href="https://github.com/joeribreedveld"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-xs font-medium text-[#FEFEFE]"
+          >
             GitHub - @joeribreedveld
           </Link>
         </li>
         <li>
-          <Link href="/" className="text-xs font-medium text-[#FEFEFE]">
+          <Link
+            href="https://www.linkedin.com/in/joeribreedveld"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-xs font-medium text-[#FEFEFE]"
+          >
             LinkedIn - @joeribreedveld
           </Link>
         </li>
         <li>
-          <Link href="/" className="text-xs font-medium text-[#FEFEFE]">
+          <Link
+            href="https://www.instagram.com/joeri.bv"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-xs font-medium text-[#FEFEFE]"
+          >
             Instagram - @joeri.bv
           </Link>
         </li>
         <li>
-          <Link href="/" className="text-xs font-medium text-[#FEFEFE]">
-            +31 68 005 60 04
-          </Link>
+          <p className="text-xs font-medium text-[#FEFEFE]">+31 68 005 60 04</p>
         </li>
       </ul>
     </div>
