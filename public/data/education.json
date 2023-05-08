@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "title": "De Amsterdamse MAVO",
-    "description": "I went to school here for 4 years. I learned a lot and had a great time.",
-    "img": "/img/education/dam.jpg",
-    "date": "2017 - 2021"
-  },
-  {
-    "id": 2,
     "title": "Mediacollege Amsterdam",
     "description": "I studied at the Mediacollege Amsterdam, where I learned the basics of web development. I also learned how to work in a team and how to manage a project.",
     "img": "/img/education/ma.jpg",
     "date": "2021 - 2023"
+  },
+  {
+    "id": 2,
+    "title": "De Amsterdamse MAVO",
+    "description": "I went to school here for 4 years. I learned a lot and had a great time.",
+    "img": "/img/education/dam.jpg",
+    "date": "2017 - 2021"
   }
 ]
