@@ -16,9 +16,11 @@ const Footer = () => (
         </Link>
         <ul className="hidden gap-8 md:flex">
           <FooterLink href="/">Home</FooterLink>
-          <FooterLink href="/">About</FooterLink>
           <FooterLink href="/">Projects</FooterLink>
+          <FooterLink href="/">About</FooterLink>
           <FooterLink href="/">Experience</FooterLink>
+          <FooterLink href="/">Services</FooterLink>
+          <FooterLink href="/">Contact</FooterLink>
         </ul>
       </section>
       <div className="h-[1px] bg-[#E5E5E5] opacity-20"></div>
