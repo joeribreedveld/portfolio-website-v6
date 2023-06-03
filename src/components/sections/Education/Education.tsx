@@ -7,7 +7,7 @@ import classNames from "classnames";
 const Education = () => (
   <section className="page-width section-padding-y flex flex-col gap-12">
     <h2 className="font-bold text-[#212529]">Educational background</h2>
-    <ul className="flex flex-col gap-8 lg:flex-row">
+    <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
       {education.map((educationItem) => (
         <EducationItem
           title={educationItem.title}
@@ -28,7 +28,7 @@ const EducationItem = ({
   img,
 }: IEducationItemProps) => (
   <li
-    className="h-[20rem] rounded bg-cover bg-center p-12 lg:w-1/2"
+    className="h-[20rem] w-full rounded bg-cover bg-center p-12"
     style={{ backgroundImage: `url(${img})` }}
   >
     <article className="flex h-full flex-col justify-end gap-4">

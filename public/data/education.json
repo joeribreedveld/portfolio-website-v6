@@ -12,5 +12,12 @@
     "description": "I went to school here for 4 years. I learned a lot and had a great time.",
     "img": "/img/education/dam.jpg",
     "date": "2017 - 2021"
+  },
+  {
+    "id": 3,
+    "title": "Hogeschool van Amsterdam",
+    "description": "Software Engineering (HBO-ICT) starting in September.",
+    "img": "/img/education/hva.jpg",
+    "date": "2023"
   }
 ]
