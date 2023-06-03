@@ -15,12 +15,11 @@ const Footer = () => (
           </h3>
         </Link>
         <ul className="hidden gap-8 md:flex">
-          <FooterLink href="/">Home</FooterLink>
-          <FooterLink href="/">Projects</FooterLink>
-          <FooterLink href="/">About</FooterLink>
-          <FooterLink href="/">Experience</FooterLink>
-          <FooterLink href="/">Services</FooterLink>
-          <FooterLink href="/">Contact</FooterLink>
+          <FooterLink href="#hero">Home</FooterLink>
+          <FooterLink href="#projects">Projects</FooterLink>
+          <FooterLink href="#about">About</FooterLink>
+          <FooterLink href="#education">Education</FooterLink>
+          <FooterLink href="#contact">Contact</FooterLink>
         </ul>
       </section>
       <div className="h-[1px] bg-[#E5E5E5] opacity-20"></div>

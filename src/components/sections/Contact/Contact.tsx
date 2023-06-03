@@ -4,7 +4,10 @@ import Image from "next/image";
 
 // Functions
 const Contact = () => (
-  <section className="section-padding-y relative mb-24 bg-[url(/img/contact-bg.jpg)] bg-cover bg-center">
+  <section
+    className="section-padding-y relative mb-24 bg-[url(/img/contact-bg.jpg)] bg-cover bg-center"
+    id="contact"
+  >
     <div className="page-width flex flex-col gap-12">
       <section className="flex flex-col items-center gap-4">
         <h2 className="font-bold text-[#FEFEFE]">Reach out to me</h2>

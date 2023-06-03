@@ -3,7 +3,10 @@ import Image from "next/image";
 
 // Functions
 const About = () => (
-  <section className="relative flex flex-col bg-[#212529] md:flex-row">
+  <section
+    className="relative flex flex-col bg-[#212529] md:flex-row"
+    id="about"
+  >
     <section className="section-padding-y page-width min-w-screen flex flex-col gap-12">
       <h2 className="font-bold text-[#E5E5E5]">Get to know me</h2>
       <p className="text-xs font-light text-[#E5E5E5] md:max-w-[50%] md:pr-16 xl:pr-32">

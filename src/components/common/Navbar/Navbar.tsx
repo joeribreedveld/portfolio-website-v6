@@ -15,14 +15,13 @@ const Navbar = () => (
     </section>
     <section className="hidden md:block">
       <ul className="flex gap-8">
-        <NavLink href="/" isActive>
+        <NavLink href="#hero" isActive>
           Home
         </NavLink>
-        <NavLink href="/">Projects</NavLink>
-        <NavLink href="/">About</NavLink>
-        <NavLink href="/">Experience</NavLink>
-        <NavLink href="/">Services</NavLink>
-        <NavLink href="/">Contact</NavLink>
+        <NavLink href="#projects">Projects</NavLink>
+        <NavLink href="#about">About</NavLink>
+        <NavLink href="#education">Education</NavLink>
+        <NavLink href="#contact">Contact</NavLink>
       </ul>
     </section>
   </nav>

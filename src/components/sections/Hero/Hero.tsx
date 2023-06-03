@@ -3,7 +3,10 @@ import Image from "next/image";
 
 // Functions
 const Hero = () => (
-  <section className="relative flex h-full min-h-[60vh] flex-col justify-end bg-[url(/img/hero-bg.jpg)] bg-cover bg-center">
+  <section
+    className="relative flex h-full min-h-[60vh] flex-col justify-end bg-[url(/img/hero-bg.jpg)] bg-cover bg-center"
+    id="hero"
+  >
     <div className="page-width flex flex-col gap-4 p-24">
       <h1 className="max-w-[30ch]">
         Passionate Frontend Developer Driven by Learning and Challenges

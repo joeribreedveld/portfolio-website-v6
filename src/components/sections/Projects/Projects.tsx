@@ -6,7 +6,10 @@ import { type IProjectProps } from "./Projects.types";
 
 // Functions
 const Projects = () => (
-  <section className="page-width section-padding-y flex flex-col gap-12">
+  <section
+    className="page-width section-padding-y flex flex-col gap-12"
+    id="projects"
+  >
     <h2 className="text-2xl font-bold text-[#212529]">
       Explore selected projects
     </h2>
