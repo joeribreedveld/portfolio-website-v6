@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "CanvasHeroes",
+    "description": "Junior Frontend Developer working in a small team.",
+    "img": "/img/career/canvasheroes.jpg",
+    "date": "Nov 2022 - now"
+  },
+  {
+    "id": 2,
+    "title": "Freelance Developer",
+    "description": "Freelance web developer working for local businesses.",
+    "img": "/img/career/freelance.jpg",
+    "date": "March 2023 - now"
+  },
+  {
+    "id": 3,
+    "title": "oorsprongsdocumenten.nl",
+    "description": "Frontend Development for a family business.",
+    "img": "/img/career/oorsprongsdocumenten.jpg",
+    "date": "Jun 2022 - Dec 2022"
+  }
+]
