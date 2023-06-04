@@ -1,7 +1,6 @@
 // Imports
 import { IEducationItemProps } from "./Education.types";
 import education from "../../../../public/data/education.json";
-import classNames from "classnames";
 
 // Functions
 const Education = () => (

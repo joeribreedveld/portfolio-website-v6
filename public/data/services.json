@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development",
+    "description": "I can build a custom website for you or your company.",
+    "img": "/img/education/hva.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Web Maintanance",
+    "description": "I can maintain excisting websites and update content.",
+    "img": "/img/education/ma.jpg"
+  }
+]

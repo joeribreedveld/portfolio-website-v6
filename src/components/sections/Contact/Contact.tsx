@@ -5,7 +5,7 @@ import Image from "next/image";
 // Functions
 const Contact = () => (
   <section
-    className="section-padding-y relative mb-24 bg-[url(/img/contact-bg.jpg)] bg-cover bg-center"
+    className="section-padding-y relative bg-[url(/img/contact-bg.jpg)] bg-cover bg-center"
     id="contact"
   >
     <div className="page-width flex flex-col gap-12">

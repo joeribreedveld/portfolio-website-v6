@@ -8,6 +8,7 @@ import Contact from "~/components/sections/Contact/Contact";
 import Hero from "~/components/sections/Hero/Hero";
 import Projects from "~/components/sections/Projects/Projects";
 import Education from "~/components/sections/Education/Education";
+import Services from "~/components/sections/Services/Services";
 
 // Functions
 const Home: NextPage = () => (
@@ -24,6 +25,7 @@ const Home: NextPage = () => (
       <About />
       <Education />
       <Contact />
+      <Services />
     </main>
     <Footer />
   </>
