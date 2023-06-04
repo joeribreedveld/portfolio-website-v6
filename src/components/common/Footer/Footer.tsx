@@ -34,7 +34,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub className="text-[#F8F9FA] opacity-50" />
+              <FaGithub className="text-lg text-[#F8F9FA] opacity-50" />
             </Link>
           </li>
           <li>
@@ -43,7 +43,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="text-[#F8F9FA] opacity-50" />
+              <FaLinkedin className="text-lg text-[#F8F9FA] opacity-50" />
             </Link>
           </li>
           <li>
@@ -52,7 +52,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiFillInstagram className="text-[#F8F9FA] opacity-50" />
+              <AiFillInstagram className="text-lg text-[#F8F9FA] opacity-50" />
             </Link>
           </li>
         </ul>
