@@ -30,7 +30,7 @@ const EducationItem = ({
   img,
 }: IEducationItemProps) => (
   <li
-    className="h-[20rem] w-full rounded bg-cover bg-center p-12"
+    className="h-[25rem] w-full rounded bg-cover bg-center p-12"
     style={{ backgroundImage: `url(${img})` }}
   >
     <article className="flex h-full flex-col justify-end gap-4">
