@@ -21,6 +21,7 @@ const Navbar = () => (
         <NavLink href="#projects">Projects</NavLink>
         <NavLink href="#about">About</NavLink>
         <NavLink href="#education">Education</NavLink>
+        <NavLink href="#interests">Interests</NavLink>
         <NavLink href="#contact">Contact</NavLink>
         <NavLink href="#services">Services</NavLink>
       </ul>

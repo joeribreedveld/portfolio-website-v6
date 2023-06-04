@@ -19,6 +19,7 @@ const Footer = () => (
           <FooterLink href="#projects">Projects</FooterLink>
           <FooterLink href="#about">About</FooterLink>
           <FooterLink href="#education">Education</FooterLink>
+          <FooterLink href="#interests">Interests</FooterLink>
           <FooterLink href="#contact">Contact</FooterLink>
           <FooterLink href="#services">Services</FooterLink>
         </ul>

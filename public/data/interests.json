@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Programming",
+    "description": "I like making new things and learning about technologies.",
+    "img": "/img/interests/programming.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Skateboarding",
+    "description": "I like skateboarding with my friends and learning new tricks.",
+    "img": "/img/interests/skateboarding.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Gaming",
+    "description": "I like playing video games in my free time to relax.",
+    "img": "/img/interests/gaming.jpg"
+  }
+]
