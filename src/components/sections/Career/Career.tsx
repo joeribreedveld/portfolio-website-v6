@@ -6,7 +6,7 @@ import career from "../../../../public/data/career.json";
 const Career = () => (
   <section
     className="min-w-screen relative flex justify-between bg-[#212529]"
-    id="about"
+    id="career"
   >
     <section className="section-padding-y min-w-screen page-width mr-1/2 flex flex-col gap-12">
       <h2 className="font-medium text-[#E5E5E5]">Career development</h2>
