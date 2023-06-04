@@ -6,7 +6,7 @@ import services from "../../../../public/data/services.json";
 const Services = () => (
   <section
     className="page-width section-padding-y flex flex-col gap-12"
-    id="education"
+    id="services"
   >
     <h2 className="font-bold text-[#212529]">Services offered</h2>
     <ul className="grid grid-cols-1 gap-6 md:grid-cols-2">

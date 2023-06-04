@@ -22,6 +22,7 @@ const Navbar = () => (
         <NavLink href="#about">About</NavLink>
         <NavLink href="#education">Education</NavLink>
         <NavLink href="#contact">Contact</NavLink>
+        <NavLink href="#services">Services</NavLink>
       </ul>
     </section>
   </nav>

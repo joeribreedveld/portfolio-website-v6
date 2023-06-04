@@ -20,6 +20,7 @@ const Footer = () => (
           <FooterLink href="#about">About</FooterLink>
           <FooterLink href="#education">Education</FooterLink>
           <FooterLink href="#contact">Contact</FooterLink>
+          <FooterLink href="#services">Services</FooterLink>
         </ul>
       </section>
       <div className="h-[1px] bg-[#E5E5E5] opacity-20"></div>
