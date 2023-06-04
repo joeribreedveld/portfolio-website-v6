@@ -35,7 +35,7 @@ const EducationItem = ({
   >
     <article className="flex h-full flex-col justify-end gap-4">
       <p className="text-xs font-light text-[#E5E5E5]">{date}</p>
-      <h4 className="font-medium text-white">{title}</h4>
+      <h4 className="font-medium text-[#F8F9FA]">{title}</h4>
       <p className="text-xs font-light text-[#E5E5E5]">{description}</p>
     </article>
   </li>

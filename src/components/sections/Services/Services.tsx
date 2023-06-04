@@ -29,7 +29,7 @@ const ServicesItem = ({ title, description, img }: IServicesItemProps) => (
   >
     <article className="flex h-full flex-col justify-end gap-4">
       <p className="text-xs font-light text-[#E5E5E5]">{title}</p>
-      <h4 className="font-medium text-white">{description}</h4>
+      <h4 className="font-medium text-[#F8F9FA]">{description}</h4>
     </article>
   </li>
 );
