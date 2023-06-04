@@ -4,3 +4,5 @@ type TCareerItemProps = {
   date: string;
   img: string;
 };
+
+export type { TCareerItemProps };

@@ -1,6 +1,7 @@
 // Imports
 import Image from "next/image";
 import career from "../../../../public/data/career.json";
+import { TCareerItemProps } from "./Career.types";
 
 // Functions
 const Career = () => (
