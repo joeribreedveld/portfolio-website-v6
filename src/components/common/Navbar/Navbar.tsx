@@ -29,7 +29,7 @@ const Navbar = () => {
       className={classNames(
         "fixed w-full transition duration-300 ease-in-out",
         {
-          "bg-[#212529]": isScrolled,
+          "border-b border-[#fff] border-opacity-10 bg-[#212529]": isScrolled,
           "bg-[#212529] bg-opacity-95 md:bg-opacity-100": isMenuOpen,
         }
       )}
