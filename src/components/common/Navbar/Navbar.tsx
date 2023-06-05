@@ -5,6 +5,7 @@ import { type INavLinkProps } from "./Navbar.types";
 import { useState, useEffect } from "react";
 import { BiMenu } from "react-icons/bi";
 import { Link as Scroll } from "react-scroll";
+import { motion } from "framer-motion";
 
 // Functions
 const Navbar = () => {
@@ -34,7 +35,7 @@ const Navbar = () => {
         }
       )}
     >
-      <div className="page-width flex flex-col items-center justify-between py-6 sm:flex-row md:py-8">
+      <div className="page-width flex flex-col items-center justify-between py-6 md:flex-row md:py-8">
         <div className="flex w-full items-center justify-between">
           <section>
             <Link href="/">
@@ -51,14 +52,14 @@ const Navbar = () => {
         </div>
         <section
           className={classNames(
-            "flex h-[90vh] flex-col justify-center md:block md:h-fit",
+            "flex h-[94vh] flex-col justify-center md:block md:h-fit",
             {
               hidden: !isMenuOpen,
             }
           )}
         >
           <ul className="flex flex-col gap-4 md:flex-row md:gap-8">
-            <NavLink setIsMenuOpen={setIsMenuOpen} href="hero" isActive>
+            <NavLink setIsMenuOpen={setIsMenuOpen} href="hero">
               Home
             </NavLink>
             <NavLink setIsMenuOpen={setIsMenuOpen} href="projects">
@@ -83,24 +84,15 @@ const Navbar = () => {
   );
 };
 
-const NavLink = ({
-  href,
-  children,
-  isActive,
-  setIsMenuOpen,
-}: INavLinkProps) => (
+const NavLink = ({ href, children, setIsMenuOpen }: INavLinkProps) => (
   <Scroll
     to={href}
+    spy={true}
     smooth={true}
     duration={500}
     onClick={() => setIsMenuOpen(false)}
-    className={classNames(
-      "p-4 px-8 text-center text-xs font-medium text-[#F8F9FA] hover:cursor-pointer md:p-0 md:text-left",
-      {
-        "border-b-2 border-[#DDBEA9]": isActive,
-        "opacity-50": !isActive,
-      }
-    )}
+    activeClass="border-b-2 border-[#DDBEA9]"
+    className="p-4 px-8 text-center text-xs font-medium text-[#F8F9FA] hover:cursor-pointer md:p-0 md:text-left"
   >
     {children}
   </Scroll>
