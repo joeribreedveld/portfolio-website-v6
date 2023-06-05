@@ -29,6 +29,24 @@ class MyDocument extends Document {
             name="description"
             content="Joeri Breedveld is a passionate frontend developer driven by learning and challenges"
           />
+          <meta property="og:url" content="https://joeribreedveld.com" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Joeri Breedveld" />
+          <meta
+            property="og:description"
+            content="Joeri Breedveld is a passionate frontend developer driven by learning and challenges"
+          />
+          <meta property="og:image" content="/img/hero-bg.jpg" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="twitter:domain" content="joeribreedveld.com" />
+          <meta property="twitter:url" content="https://joeribreedveld.com" />
+          <meta name="twitter:title" content="Joeri Breedveld" />
+          <meta
+            name="twitter:description"
+            content="Joeri Breedveld is a passionate frontend developer driven by learning and challenges"
+          />
+          <meta name="twitter:image" content="/img/hero-bg.jpg" />
         </Head>
         <body>
           <Main />
