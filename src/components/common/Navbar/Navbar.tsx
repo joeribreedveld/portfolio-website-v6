@@ -5,7 +5,6 @@ import { type INavLinkProps } from "./Navbar.types";
 import { useState, useEffect } from "react";
 import { BiMenu } from "react-icons/bi";
 import { Link as Scroll } from "react-scroll";
-import { motion } from "framer-motion";
 
 // Functions
 const Navbar = () => {
