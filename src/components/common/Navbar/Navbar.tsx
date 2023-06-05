@@ -89,6 +89,7 @@ const NavLink = ({ href, children, setIsMenuOpen }: INavLinkProps) => (
     to={href}
     spy={true}
     smooth={true}
+    offset={-100}
     duration={500}
     onClick={() => setIsMenuOpen(false)}
     activeClass="border-b-2 border-[#DDBEA9]"
