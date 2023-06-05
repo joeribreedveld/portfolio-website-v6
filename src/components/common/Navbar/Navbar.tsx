@@ -4,6 +4,7 @@ import classNames from "classnames";
 import { type INavLinkProps } from "./Navbar.types";
 import { useState, useEffect } from "react";
 import { BiMenu } from "react-icons/bi";
+import { AiOutlineClose } from "react-icons/ai";
 import { Link as Scroll } from "react-scroll";
 
 // Functions
@@ -45,7 +46,11 @@ const Navbar = () => {
           </section>
           <section className="flex items-center md:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-              <BiMenu className="text-3xl text-[#F8F9FA]" />
+              {isMenuOpen ? (
+                <AiOutlineClose className="text-3xl text-[#F8F9FA]" />
+              ) : (
+                <BiMenu className="text-3xl text-[#F8F9FA]" />
+              )}
             </button>
           </section>
         </div>
