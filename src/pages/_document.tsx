@@ -54,7 +54,10 @@ class MyDocument extends Document {
             property="og:description"
             content="Joeri Breedveld is a passionate frontend developer driven by learning and challenges"
           />
-          <meta property="og:image" content="../public/img/hero-bg.jpg" />
+          <meta
+            property="og:image"
+            content="https://joeribreedveld.com/img/og-img.jpg"
+          />
 
           <meta name="twitter:card" content="summary_large_image" />
           <meta property="twitter:domain" content="joeribreedveld.com" />
@@ -64,7 +67,10 @@ class MyDocument extends Document {
             name="twitter:description"
             content="Joeri Breedveld is a passionate frontend developer driven by learning and challenges"
           />
-          <meta name="twitter:image" content="../public/img/hero-bg.jpg" />
+          <meta
+            name="twitter:image"
+            content="https://joeribreedveld.com/img/og-img.jpg"
+          />
         </Head>
         <body>
           <Main />
