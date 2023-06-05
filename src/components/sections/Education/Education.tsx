@@ -5,21 +5,23 @@ import education from "../../../../public/data/education.json";
 // Functions
 const Education = () => (
   <section
-    className="page-width section-padding-y flex flex-col gap-12"
+    className="bg-white"
     // id="education"
   >
-    <h2 className="font-bold text-[#212529]">Educational background</h2>
-    <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
-      {education.map((educationItem) => (
-        <EducationItem
-          title={educationItem.title}
-          date={educationItem.date}
-          description={educationItem.description}
-          img={educationItem.img}
-          key={educationItem.id}
-        />
-      ))}
-    </ul>
+    <div className="page-width section-padding-y flex flex-col gap-12">
+      <h2 className="font-bold text-[#212529]">Educational background</h2>
+      <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+        {education.map((educationItem) => (
+          <EducationItem
+            title={educationItem.title}
+            date={educationItem.date}
+            description={educationItem.description}
+            img={educationItem.img}
+            key={educationItem.id}
+          />
+        ))}
+      </ul>
+    </div>
   </section>
 );
 

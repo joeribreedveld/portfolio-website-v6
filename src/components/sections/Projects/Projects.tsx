@@ -6,24 +6,23 @@ import { type IProjectProps } from "./Projects.types";
 
 // Functions
 const Projects = () => (
-  <section
-    className="page-width section-padding-y flex flex-col gap-12"
-    id="projects"
-  >
-    <h2 className="text-2xl font-bold text-[#212529]">
-      Explore selected projects
-    </h2>
-    <ul className="grid gap-y-12 gap-x-6 sm:grid-cols-2 xl:grid-cols-3">
-      {projects.map((project) => (
-        <Project
-          title={project.title}
-          description={project.description}
-          link={project.link}
-          image={project.image}
-          key={project.id}
-        />
-      ))}
-    </ul>
+  <section className=" bg-white" id="projects">
+    <div className="page-width section-padding-y flex flex-col gap-12">
+      <h2 className="text-2xl font-bold text-[#212529]">
+        Explore selected projects
+      </h2>
+      <ul className="grid gap-y-12 gap-x-6 sm:grid-cols-2 xl:grid-cols-3">
+        {projects.map((project) => (
+          <Project
+            title={project.title}
+            description={project.description}
+            link={project.link}
+            image={project.image}
+            key={project.id}
+          />
+        ))}
+      </ul>
+    </div>
   </section>
 );
 
