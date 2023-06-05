@@ -4,7 +4,7 @@ import Image from "next/image";
 // Functions
 const Hero = () => (
   <section
-    className="relative flex h-full min-h-[100vh] flex-col justify-end bg-[url(/img/hero-bg.jpg)] bg-cover bg-center md:min-h-[60vh]"
+    className="relative flex h-full min-h-[80vh] flex-col justify-end bg-[url(/img/hero-bg.jpg)] bg-cover bg-center md:min-h-[60vh]"
     id="hero"
   >
     <div className="page-width flex flex-col gap-4 p-24">
