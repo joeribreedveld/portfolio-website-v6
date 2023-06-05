@@ -27,9 +27,9 @@ const Navbar = () => {
   return (
     <nav
       className={classNames(
-        "fixed w-full transition duration-300 ease-in-out",
+        "fixed w-full border-b border-[#fff] border-opacity-0 transition duration-300 ease-in-out",
         {
-          "border-b border-[#fff] border-opacity-10 bg-[#212529]": isScrolled,
+          "border-opacity-10 bg-[#212529]": isScrolled,
           "bg-[#212529] bg-opacity-95 md:bg-opacity-100": isMenuOpen,
         }
       )}
