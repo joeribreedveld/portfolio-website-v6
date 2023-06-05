@@ -6,7 +6,7 @@ import education from "../../../../public/data/education.json";
 const Education = () => (
   <section
     className="page-width section-padding-y flex flex-col gap-12"
-    id="education"
+    // id="education"
   >
     <h2 className="font-bold text-[#212529]">Educational background</h2>
     <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
