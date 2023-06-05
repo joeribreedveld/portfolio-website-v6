@@ -127,6 +127,7 @@ const NavLink = ({
     className="border-b-2 border-[#DDBEA9] border-opacity-0 p-4 px-8 text-center text-xs font-medium text-[#F8F9FA] transition duration-200 ease-in-out hover:cursor-pointer hover:border-opacity-100 md:p-0 md:text-left"
   >
     {children}
+    <span className="text-md font-bold text-[#DDBEA9]">.</span>
   </Scroll>
 );
 
