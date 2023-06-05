@@ -34,7 +34,7 @@ const Navbar = () => {
         }
       )}
     >
-      <div className="page-width flex flex-col items-center justify-between py-6 md:flex-row md:py-8">
+      <div className="page-width flex flex-col items-center justify-between py-6 md:flex-row md:py-7">
         <div className="flex w-full items-center justify-between">
           <section>
             <Link href="/">
@@ -58,22 +58,46 @@ const Navbar = () => {
           )}
         >
           <ul className="flex flex-col gap-4 md:flex-row md:gap-8">
-            <NavLink setIsMenuOpen={setIsMenuOpen} href="hero">
+            <NavLink
+              setIsMenuOpen={setIsMenuOpen}
+              isMenuOpen={isMenuOpen}
+              href="hero"
+            >
               Home
             </NavLink>
-            <NavLink setIsMenuOpen={setIsMenuOpen} href="projects">
+            <NavLink
+              setIsMenuOpen={setIsMenuOpen}
+              isMenuOpen={isMenuOpen}
+              href="projects"
+            >
               Projects
             </NavLink>
-            <NavLink setIsMenuOpen={setIsMenuOpen} href="about">
+            <NavLink
+              setIsMenuOpen={setIsMenuOpen}
+              isMenuOpen={isMenuOpen}
+              href="about"
+            >
               About
             </NavLink>
-            <NavLink setIsMenuOpen={setIsMenuOpen} href="education">
+            <NavLink
+              setIsMenuOpen={setIsMenuOpen}
+              isMenuOpen={isMenuOpen}
+              href="education"
+            >
               Experience
             </NavLink>
-            <NavLink setIsMenuOpen={setIsMenuOpen} href="contact">
+            <NavLink
+              setIsMenuOpen={setIsMenuOpen}
+              isMenuOpen={isMenuOpen}
+              href="contact"
+            >
               Contact
             </NavLink>
-            <NavLink setIsMenuOpen={setIsMenuOpen} href="services">
+            <NavLink
+              setIsMenuOpen={setIsMenuOpen}
+              isMenuOpen={isMenuOpen}
+              href="services"
+            >
               Services
             </NavLink>
           </ul>
@@ -83,16 +107,24 @@ const Navbar = () => {
   );
 };
 
-const NavLink = ({ href, children, setIsMenuOpen }: INavLinkProps) => (
+const NavLink = ({
+  href,
+  children,
+  setIsMenuOpen,
+  isMenuOpen,
+}: INavLinkProps) => (
   <Scroll
     to={href}
     spy={true}
     smooth={true}
     offset={-100}
     duration={500}
+    activeClass={classNames({
+      "border-b-2 border-[#DDBEA9] border-opacity-100 md:border-opacity-0":
+        isMenuOpen,
+    })}
     onClick={() => setIsMenuOpen(false)}
-    activeClass="border-b-2 border-[#DDBEA9]"
-    className="p-4 px-8 text-center text-xs font-medium text-[#F8F9FA] hover:cursor-pointer md:p-0 md:text-left"
+    className="border-b-2 border-[#DDBEA9] border-opacity-0 p-4 px-8 text-center text-xs font-medium text-[#F8F9FA] transition duration-200 ease-in-out hover:cursor-pointer hover:border-opacity-100 md:p-0 md:text-left"
   >
     {children}
   </Scroll>
