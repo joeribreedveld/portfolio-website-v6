@@ -4,21 +4,20 @@ import services from "../../../../public/data/interests.json";
 
 // Functions
 const Interests = () => (
-  <section
-    className="page-width section-padding-y flex flex-col gap-12"
-    id="interests"
-  >
-    <h2 className="font-bold text-[#212529]">Passions and interests</h2>
-    <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
-      {services.map((interestsItem) => (
-        <InterestsItem
-          title={interestsItem.title}
-          description={interestsItem.description}
-          img={interestsItem.img}
-          key={interestsItem.id}
-        />
-      ))}
-    </ul>
+  <section className="bg-white" id="interests">
+    <div className="page-width section-padding-y flex flex-col gap-12">
+      <h2 className="font-bold text-[#212529]">Passions and interests</h2>
+      <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+        {services.map((interestsItem) => (
+          <InterestsItem
+            title={interestsItem.title}
+            description={interestsItem.description}
+            img={interestsItem.img}
+            key={interestsItem.id}
+          />
+        ))}
+      </ul>
+    </div>
   </section>
 );
 
