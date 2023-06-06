@@ -1,3 +1,6 @@
+// Imports
+import Image from "next/image";
+
 // Functions
 const About = () => (
   <section
@@ -16,7 +19,14 @@ const About = () => (
         also work very structured.
       </p>
     </section>
-    <section className="relative h-[20rem] bg-[url(/img/about.jpg)] bg-cover bg-center md:absolute md:min-h-full md:w-full md:max-w-[50vw] md:translate-x-full"></section>
+    <section className="relative h-[20rem] bg-[url(/img/about.jpg)] bg-cover bg-center md:absolute md:min-h-full md:w-full md:max-w-[50vw] md:translate-x-full">
+      <Image
+        src="/img/about.jpg"
+        layout="fill"
+        className="absolute object-cover"
+        alt="About background image"
+      />
+    </section>
   </section>
 );
 
