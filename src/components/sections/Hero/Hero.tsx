@@ -1,6 +1,3 @@
-// Imports
-import Image from "next/image";
-
 // Functions
 const Hero = () => (
   <section
