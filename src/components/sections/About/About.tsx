@@ -24,7 +24,7 @@ const About = () => (
         src="/img/about.jpg"
         layout="fill"
         className="absolute object-cover"
-        alt="About background image"
+        alt="About background skate"
       />
     </section>
   </section>
