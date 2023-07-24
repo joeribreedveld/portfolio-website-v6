@@ -24,7 +24,7 @@ const Career = () => (
       </ul>
     </section>
     <div className="absolute right-0 h-full max-w-[50vw]">
-      <section className="relative hidden h-full w-[25vw] bg-red-500 lg:block xl:w-[50vw]">
+      <section className="relative hidden h-full w-[25vw]  lg:block xl:w-[50vw]">
         <Image
           className="object-cover"
           src="/img/career/background.jpg"
